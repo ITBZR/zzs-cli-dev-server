@@ -2,7 +2,7 @@
  * @Descripttion: 项目模板
  * @Author: BZR
  * @Date: 2022-08-26 10:16:44
- * @LastEditTime: 2022-08-31 14:37:45
+ * @LastEditTime: 2022-09-01 09:58:57
  */
 import { Controller } from 'egg';
 import { Project } from '../utils/shcema/project';
@@ -17,8 +17,21 @@ export default class ProjectController extends Controller {
     //   type: 'normal',
     //   startCommand: 'npm run dev',
     //   installCommand: 'npm i',
+    //   tag: [ 'project' ],
+    //   ignore: [ '**/public/**' ],
+    // });
+    // const component = new Project({
+    //   name: '测试业务组件库',
+    //   npmName: 'zzs-cli-dev-lego-components',
+    //   version: '1.0.0',
+    //   type: 'normal',
+    //   startCommand: 'npm run serve',
+    //   installCommand: 'npm i',
+    //   tag: [ 'component' ],
+    //   ignore: [ '**/public/**' ],
     // });
     // await project.save();
+    // await component.save();
     const res = await Project.find();
     ctx.body = res;
   }
