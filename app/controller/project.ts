@@ -2,7 +2,7 @@
  * @Descripttion: 项目模板
  * @Author: BZR
  * @Date: 2022-08-26 10:16:44
- * @LastEditTime: 2022-09-01 09:58:57
+ * @LastEditTime: 2022-09-14 10:56:22
  */
 import { Controller } from 'egg';
 import { Project } from '../utils/shcema/project';

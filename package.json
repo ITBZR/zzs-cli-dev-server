@@ -23,9 +23,12 @@
   },
   "dependencies": {
     "@pick-star/cli-mongodb": "^1.0.3",
+    "await-stream-ready": "^1.0.1",
+    "dayjs": "^1.11.5",
     "egg": "^2.6.1",
     "egg-scripts": "^2.6.0",
-    "mongoose": "^6.5.3"
+    "mongoose": "^6.5.3",
+    "stream-wormhole": "^1.1.0"
   },
   "devDependencies": {
     "@eggjs/tsconfig": "^1.0.0",
